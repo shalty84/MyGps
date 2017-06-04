@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_rode"
+            android:icon="@drawable/ic_favorite_black_24px"
+            android:title="המסלולים שלי" />
+        <item
+            android:id="@+id/new_road"
+            android:icon="@drawable/ic_rowd_black_24px"
+            android:title="מסלול חדש" />
+        <item
+            android:id="@+id/sher_rode"
+            android:icon="@drawable/ic_menu_share"
+            android:title="מסלולים משותפים" />
+    </group>
+
+    <item android:title="הגדרות">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_edit_user_128"
+                android:title="הגדרות פרופיל" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_settings_black_24px"
+                android:title="הגדרות אפליקציה" />
+            <item
+                android:title=""
+                android:icon="@drawable/ic_icons_flattened"/>
+            <item
+                android:title="" />
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_power_settings_new_black_24px"
+
+                android:title="התנתק" />
+        </menu>
+    </item>
+
+
+
+</menu>
